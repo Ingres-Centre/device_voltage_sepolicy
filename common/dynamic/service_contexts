@@ -18,3 +18,4 @@ vendor.lineage.touch.IKeySwapper/default                       u:object_r:hal_li
 vendor.lineage.touch.IStylusMode/default                       u:object_r:hal_lineage_touch_service:s0
 vendor.lineage.touch.ITouchscreenGesture/default               u:object_r:hal_lineage_touch_service:s0
 vendor.lineage.gamekeys.IGameKeys/default                      u:object_r:hal_lineage_gamekeys_service:s0
+vendor.lineage.touchinjector.ITouchInjector/default            u:object_r:hal_lineage_touchinjector_service:s0
