@@ -6,3 +6,13 @@ genfscon sysfs /devices/virtual/graphics/fb0/hbm u:object_r:sysfs_livedisplay_tu
 genfscon sysfs /devices/virtual/graphics/fb0/rgb u:object_r:sysfs_livedisplay_tuneable:s0
 genfscon sysfs /devices/virtual/graphics/fb0/sre u:object_r:sysfs_livedisplay_tuneable:s0
 genfscon sysfs /devices/virtual/graphics/fb0/reading_mode u:object_r:sysfs_livedisplay_tuneable:s0
+
+genfscon sysfs /devices/platform/soc/890000.i2c/i2c-4/4-006a/leds/aw22xxx_led/brightness u:object_r:sysfs_leds:s0
+genfscon sysfs /devices/platform/soc/890000.i2c/i2c-4/4-006a/leds/aw22xxx_led/cfg u:object_r:sysfs_leds:s0
+genfscon sysfs /devices/platform/soc/890000.i2c/i2c-4/4-006a/leds/aw22xxx_led/effect u:object_r:sysfs_leds:s0
+genfscon sysfs /devices/platform/soc/890000.i2c/i2c-4/4-006a/leds/aw22xxx_led/frq u:object_r:sysfs_leds:s0
+genfscon sysfs /devices/platform/soc/890000.i2c/i2c-4/4-006a/leds/aw22xxx_led/hwen u:object_r:sysfs_leds:s0
+genfscon sysfs /devices/platform/soc/890000.i2c/i2c-4/4-006a/leds/aw22xxx_led/imax u:object_r:sysfs_leds:s0
+genfscon sysfs /devices/platform/soc/890000.i2c/i2c-4/4-006a/leds/aw22xxx_led/max_brightness u:object_r:sysfs_leds:s0
+genfscon sysfs /devices/platform/soc/890000.i2c/i2c-4/4-006a/leds/aw22xxx_led/rgb u:object_r:sysfs_leds:s0
+genfscon sysfs /devices/platform/soc/890000.i2c/i2c-4/4-006a/leds/aw22xxx_led/trigger u:object_r:sysfs_leds:s0
