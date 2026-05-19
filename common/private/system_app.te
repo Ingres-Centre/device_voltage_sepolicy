@@ -21,12 +21,11 @@ set_prop(system_app, recovery_update_prop)
 # Allow Settings to read default navbar prop
 get_prop(system_app, qemu_hw_prop)
 
-# Allow Settings to read/write pixel props
-set_prop(system_app, pixelprops_prop)
-get_prop(system_app, pixelprops_prop)
-
 # Read selinux status
 allow system_app selinuxfs:file r_file_perms;
 
 # Compact HUN
 allow system_app system_prop:property_service set;
+
+# Custom ROM Hide
+allow system_app custom_rom_hide_data_file:file { create open read write getattr setattr unlink };
